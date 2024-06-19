@@ -1,7 +1,7 @@
 JavaScript - Day -2: Datatypes
 19/06/2024 - Wednesday - 6:00 PM : 9:00 PM
 
-QN: Write a blog on difference between document and window object.
+QN: Write a blog on the difference between a document and a window object.
 
 INTRODUCTION:
 
