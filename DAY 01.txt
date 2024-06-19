@@ -77,7 +77,7 @@ These limitations have been addressed in newer versions of HTTP, such as HTTP/2 
 request prioritization, server push, and improved handling of TCP connections.
 
 Overall, HTTP 1.1 improved the performance and functionality of the protocol, making it more efficient and scalable for modern web applications. 
-However in response to these limitations, HTTP 1.1 was introduced with several improvements, including support for persistent connections, pipelining and 
+However, in response to these limitations, HTTP 1.1 was introduced with several improvements, including support for persistent connections, pipelining and 
 improved caching. However, even with these improvements, HTTP 1.1 still has limitations and performance issues, which led to the development of HTTP/2 and 
 later HTTP/3 protocols.
 
