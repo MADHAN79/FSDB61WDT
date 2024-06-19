@@ -38,9 +38,9 @@ Navigation:
     Properties such as window.location, window.history, and window.navigator provide information and control over the browser's navigation 
 and history.
 
-========================================
+=========================================
 II. Introduction to the Document Object |
-========================================
+=========================================
 
 The document object, on the other hand, represents the HTML document that is loaded into the browser window. It is a property of the window object 
 and provides methods and properties for accessing and manipulating the content of the web page.
