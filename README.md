@@ -1,1 +1,1 @@
-All the Javascript-related daily tasks are uploaded with their respective Day numbers.
+All the FSDB61WDT related daily tasks are uploaded with their respective Day numbers AND Subjects.
