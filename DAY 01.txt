@@ -3,13 +3,13 @@ JavaScript - Day -1: Introduction to Browser & web
 
 Introduction:
 
-HTTP stands for Hypertext Transfer Protocol, which is a protocol for transferring data over the web. It is the foundation of data communication on 
+      HTTP stands for Hypertext Transfer Protocol, which is a protocol for transferring data over the web. It is the foundation of data communication on 
 the World Wide Web and is used to request and transmit web pages, images, videos, and other resources between web servers and web clients, such as 
 browsers or mobile applications.
-HTTP is a client-server protocol, which means that it involves communication between a client (such as a web browser or mobile app) and a server 
+      HTTP is a client-server protocol, which means that it involves communication between a client (such as a web browser or mobile app) and a server 
 (which hosts the website or web application). The client sends an HTTP request to the server, which then sends an HTTP response back to the client.
 The response contains the requested data or resource, such as a web page, image, or video.
-HTTP is a stateless protocol, which means that each request and response is independent and does not rely on any previous messages. This makes the 
+      HTTP is a stateless protocol, which means that each request and response is independent and does not rely on any previous messages. This makes the 
 protocol simpler and more scalable, but it can also lead to performance issues.
 There have been several versions of the HTTP protocol, including HTTP 1.0, HTTP 1.1, HTTP/2, and HTTP/3, each with its own set of features and improvements.
 
