@@ -1,0 +1,3 @@
+Created a blog for Day 03 in medium.com and submitted in task of Day 03.
+
+Link to that : https://medium.com/@madhanvarshini3/javascript-day-3-js-array-objects-20-06-2024-thursday-6-00-pm-9-00-pm-bb782e6fae26
