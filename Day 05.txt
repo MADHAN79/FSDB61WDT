@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+
+<script>
+
+//=======
+//QN. 1 |
+//=======
+
+console.log("Qn. 1:");
+
+let resume = {
+
+    name : "MADHAN",
+    age : "23",
+    email : "madhanvarshini3@gmail.com",
+    phone : "8248758815",
+    skills : "HTML, CSS, JAVASCRIPT, REACT.JS, NODE.JS, MONGODB, EXPRESS.JS",
+    education : "Kumaraguru College of Technology",
+    department : "Computer Science Engineering",
+    graduation : "2023",
+    experience : "Fresher",
+    languages : "English, Tamil",
+    soft_skills : "Good communicator and a great team collaborator"
+    
+}
+
+//Bydefault the console.log print the output in ALPHABETICAL ORDER
+// Function to print the resume object in the same order as i written above
+
+function printResume(resume) {
+    
+    console.log("");//printing empty line for clean output
+    console.log("Name: " + resume.name);
+    console.log("Age: " + resume.age);
+    console.log("Email: " + resume.email);
+    console.log("Phone: " + resume.phone);
+    console.log("Skills: " + resume.skills);
+    console.log("Education: " + resume.education);
+    console.log("Department: " + resume.department);
+    console.log("Graduation: " + resume.graduation);
+    console.log("Experience: " + resume.experience);
+    console.log("Languages: " + resume.languages);
+    console.log("Soft Skills: " + resume.soft_skills);
+    console.log("");
+    
+}
+
+printResume(resume);
+
+//=======
+//QN. 2 |
+//=======
+
+// after solving 2qn, i found out "for loop" is the easiest method to print in desired order in output.
+let keys = [
+    "name", 
+    "age", 
+    "email", 
+    "phone", 
+    "skills", 
+    "education", 
+    "department", 
+    "graduation", 
+    "experience", 
+    "languages", 
+    "soft_skills"
+];
+
+console.log("Qn. 2:");
+console.log("");//printing empty line for clean output
+
+for (let i = 0; i < keys.length; i++) {
+    let key = keys[i];
+    console.log(`${key.charAt(0).toUpperCase() + key.slice(1)}: ${resume[key]}`);
+}
+
+</script>
+</body>
+</html>
