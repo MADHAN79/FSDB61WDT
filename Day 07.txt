@@ -1,0 +1,119 @@
+1) 	a)
+
+const countries = [
+  { name: "Afghanistan", region: "Asia" },
+  { name: "Albania", region: "Europe" },
+  { name: "Algeria", region: "Africa" },
+  { name: "Andorra", region: "Europe" },
+  { name: "Angola", region: "Africa" },
+  { name: "Armenia", region: "Asia" },
+  { name: "Australia", region: "Oceania" },
+  { name: "Azerbaijan", region: "Asia" },
+  // Add more countries as needed
+];
+const asianCountries = countries.filter(country => country.region === "Asia");
+
+console.log(asianCountries);
+[
+  { name: "Afghanistan", region: "Asia" },
+  { name: "Armenia", region: "Asia" },
+  { name: "Azerbaijan", region: "Asia" }
+]
+
+
+//=======================================================
+
+b) 
+
+const countries = [
+  { name: 'Country A', population: 500000 },
+  { name: 'Country B', population: 150000 },
+  { name: 'Country C', population: 75000 },
+  { name: 'Country D', population: 300000 },
+  { name: 'Country E', population: 120000 },
+];
+const smallPopulationCountries = countries.filter(country => country.population < 200000);
+
+console.log(smallPopulationCountries);
+[
+  { name: 'Country B', population: 150000 },
+  { name: 'Country C', population: 75000 },
+  { name: 'Country E', population: 120000 }
+]
+fetch('https://restcountries.com/v3.1/all')
+  .then(response => response.json())
+  .then(data => {
+    const smallPopulationCountries = data.filter(country => country.population < 200000);
+    console.log(smallPopulationCountries);
+  })
+  .catch(error => console.error('Error fetching data:', error));
+
+
+//=====================================================
+
+
+c)
+const countries = [
+    {
+        name: "Afghanistan",
+        capital: "Kabul",
+        flag: "https://restcountries.com/v3.1/flags/af.png"
+    },
+    {
+        name: "Albania",
+        capital: "Tirana",
+        flag: "https://restcountries.com/v3.1/flags/al.png"
+    },
+    {
+        name: "Algeria",
+        capital: "Algiers",
+        flag: "https://restcountries.com/v3.1/flags/dz.png"
+    }
+];
+countries.forEach(country => {
+    console.log(`Name: ${country.name}`);
+    console.log(`Capital: ${country.capital}`);
+    console.log(`Flag: ${country.flag}`);
+    console.log('-----------------------');
+});
+
+
+//======================================================
+
+d)
+fetch('https://restcountries.com/v3.1/all')
+  .then(response => response.json())
+  .then(data => {
+    const totalPopulation = data.reduce((accumulator, country) => {
+      return accumulator + country.population;
+    }, 0);
+    console.log('Total Population:', totalPopulation);
+  })
+  .catch(error => console.error('Error fetching data:', error));
+
+
+//==========================================================
+
+e)
+const countries = [
+  {
+    name: "United States of America",
+    currencies: [{ code: "USD", name: "United States dollar", symbol: "$" }]
+  },
+  {
+    name: "Canada",
+    currencies: [{ code: "CAD", name: "Canadian dollar", symbol: "$" }]
+  },
+  {
+    name: "Japan",
+    currencies: [{ code: "JPY", name: "Japanese yen", symbol: "¥" }]
+  },
+  {
+    name: "Australia",
+    currencies: [{ code: "AUD", name: "Australian dollar", symbol: "$" }]
+  }
+];
+const countriesUsingUSD = countries.filter(country => 
+  country.currencies.some(currency => currency.code === "USD")
+
+//=========================================================
